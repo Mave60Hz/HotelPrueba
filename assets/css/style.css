@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'rubik';
+    src: url("../fonts/RubikMonoOne-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ruluko';
+    src: url("../fonts/Ruluko.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titilium';
+    src: url("../fonts/TitilliumWeb-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #DFEFFF4F;
+
+}
+
+#logo{
+    margin-left: 15px;
+}
+
+#logo h1{
+    font-family: 'rubik';
+    color: #4200CD;
+    font-size: 30px;
+    text-shadow: 0px 4px 3px  #BFBFBF;
+}
+
+#navegacion{
+    margin-right: 15px;
+}
+
+#navegacion ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navegacion ul li{
+    margin-left: 15px;
+}
+
+#navegacion ul li a{
+    font-family: 'ruluko';
+    color: #4200CD;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 300ms;
+}
+
+#navegacion ul li a:hover{
+    color: #c900cd;
+}
+
+.activado{
+    color: #c900cd !important;
+}
+
+#slider{
+    width: 100%;
+    height: 450px;
+}
+
+#slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
